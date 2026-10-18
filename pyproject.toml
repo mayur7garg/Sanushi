@@ -1,0 +1,16 @@
+[project]
+name = "sanushi"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Mayur Garg", email = "mayur7garg@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "torch>=2.14.1",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
