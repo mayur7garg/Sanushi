@@ -9,6 +9,7 @@ authors = [
 requires-python = ">=3.13"
 dependencies = [
     "torch>=2.14.1",
+    "tqdm>=4.70.1",
 ]
 
 [build-system]
